@@ -51,10 +51,10 @@ local maxman
 getfenv().grav = workspace.Gravity
 
 -----------------------------------------------------------------------
--- MODERNIZED UI CREATION (Matches Layout from watermarked_img_11083873353209995163.png)
+-- MODERNIZED UI CREATION
 -----------------------------------------------------------------------
--- Loading a dark-themed framework capable of generating the sidebar tab design
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/mopsfl/Rayfield/main/source", true))()
+-- Changed to the stable, official Rayfield repository mirror to fix the HTTP 404
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source"))()
 
 local Window = library:CreateWindow({
     Name = "thegoatcdt",
